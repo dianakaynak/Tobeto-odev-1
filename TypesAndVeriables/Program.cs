@@ -2,6 +2,7 @@
 Console.WriteLine("Types And Veriables");
 //Value Types
 //Console.WriteLine("Hello World!);
+bool condition = false;
 byte number4 = 255;
 short number3 = 32767;
 int number1 = 2147483647;
