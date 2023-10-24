@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B0562295-9727-42FD-BE6B-3DD98A625BC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{B0562295-9727-42FD-BE6B-3DD98A625BC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesAndVeriables", "TypesAndVeriables\TypesAndVeriables.csproj", "{AB350EA2-38CD-45F0-9941-E1AAB1A2A919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypesAndVeriables", "TypesAndVeriables\TypesAndVeriables.csproj", "{AB350EA2-38CD-45F0-9941-E1AAB1A2A919}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{520B6B99-9277-434E-919D-05DF6CAA9AC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditionals", "Conditionals\Conditionals.csproj", "{520B6B99-9277-434E-919D-05DF6CAA9AC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{6F61CA54-738E-40FD-B467-9409607EBF69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{520B6B99-9277-434E-919D-05DF6CAA9AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{520B6B99-9277-434E-919D-05DF6CAA9AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{520B6B99-9277-434E-919D-05DF6CAA9AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F61CA54-738E-40FD-B467-9409607EBF69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F61CA54-738E-40FD-B467-9409607EBF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F61CA54-738E-40FD-B467-9409607EBF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F61CA54-738E-40FD-B467-9409607EBF69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
