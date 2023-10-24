@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesAndVeriables", "TypesAndVeriables\TypesAndVeriables.csproj", "{AB350EA2-38CD-45F0-9941-E1AAB1A2A919}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{520B6B99-9277-434E-919D-05DF6CAA9AC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AB350EA2-38CD-45F0-9941-E1AAB1A2A919}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB350EA2-38CD-45F0-9941-E1AAB1A2A919}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB350EA2-38CD-45F0-9941-E1AAB1A2A919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520B6B99-9277-434E-919D-05DF6CAA9AC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520B6B99-9277-434E-919D-05DF6CAA9AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520B6B99-9277-434E-919D-05DF6CAA9AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520B6B99-9277-434E-919D-05DF6CAA9AC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
