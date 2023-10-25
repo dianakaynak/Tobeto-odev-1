@@ -6,14 +6,25 @@
         {
             //ForLoop();
             //WhileLoop();
+            //DoWhileLoop();
+            string[] students = new string[3] { "Engin", "Derin", "Salih" };
+            foreach (var student in students) 
+            
+           {
+            Console.WriteLine(student);
+            }
+        }
+
+        private static void DoWhileLoop()
+        {
             int number = 10;
             do
-            { 
-            Console.WriteLine(number);
+            {
+                Console.WriteLine(number);
                 number--;
 
 
-            } while (number>=11);   
+            } while (number >= 11);
         }
 
         private static void WhileLoop()
