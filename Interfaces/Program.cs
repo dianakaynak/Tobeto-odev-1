@@ -13,6 +13,16 @@ namespace Interfaces
 
         static void Main(string[] args)
         {
+            //Intarfacesintr0();
+
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new OracleCustomerDal());
+
+            Console.ReadLine();
+        }
+
+        private static void Intarfacesintr0()
+        {
             PersonManager manager = new PersonManager();
             Customer customer = new Customer
             {
@@ -31,8 +41,6 @@ namespace Interfaces
             };
             manager.Add(customer);
             manager.Add(student);
-
-            Console.ReadLine();
         }
     }
     interface IPerson //soyut nesne
