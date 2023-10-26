@@ -26,63 +26,64 @@ namespace InterfacesDemo
                 new Worker(),
                 new Manager()
             };
-    }
-
-    interface IWorker
-    {
-        void Work();
-        
-
-    }
-       interface IEat
-    {
-        void Eat();
-    }
-
-
-    interface ISalary
-    {
-        void SGetalary();
-    }
-    class Manager : IWorker, IEat, ISalary
-    {
-        public void Eat()
-        {
-            throw new NotImplementedException();
         }
 
-        public void SGetalary()
+        interface IWorker
         {
-            throw new NotImplementedException();
+            void Work();
+
+
+        }
+        interface IEat
+        {
+            void Eat();
         }
 
-        public void Work()
-        {
-            throw new NotImplementedException();
-        }
-    }
-    class Worker : IWorker, IEat, ISalary
-    {
-        public void Eat()
-        {
-            throw new NotImplementedException();
-        }
 
-        public void SGetalary()
+        interface ISalary
         {
-            throw new NotImplementedException();
+            void SGetalary();
         }
+        class Manager : IWorker, IEat, ISalary
+        {
+            public void Eat()
+            {
+                throw new NotImplementedException();
+            }
 
-        public void Work()
-        {
-            throw new NotImplementedException();
+            public void SGetalary()
+            {
+                throw new NotImplementedException();
+            }
+
+            public void Work()
+            {
+                throw new NotImplementedException();
+            }
         }
-    }
-    class Robot : IWorker
-    {
-        public void Work()
+        class Worker : IWorker, IEat, ISalary
         {
-            throw new NotImplementedException();
+            public void Eat()
+            {
+                throw new NotImplementedException();
+            }
+
+            public void SGetalary()
+            {
+                throw new NotImplementedException();
+            }
+
+            public void Work()
+            {
+                throw new NotImplementedException();
+            }
+        }
+        class Robot : IWorker
+        {
+            public void Work()
+            {
+                throw new NotImplementedException();
+            }
         }
     }
 }
